@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Google</title>
+</head>
+<style>
+*{margin:0;padding:0;list-style-type: none;}
+a{text-decoration:none;}
+
+body{font-family:arial;}
+#wrapper{width:100%;}
+.nav{float:right;}
+.nav ul li{display:inline-block;height:30px;padding-left:10px;}
+.nav ul li a{color:#222;font-size:13px;display:block;height:30px;line-height:30px;}
+.nav ul li a:hover{text-decoration: underline;}
+.button{background:#4285f4;border-radius:2px;-moz=border-radius:2px;-webkit-border-radius:2px;color:#fff;text-align:center;height:30px;line-height:30px;width:80px;padding:0 8px;font-size:13px;margin-right:15px;}
+ul li div.button a{color:#fff;}
+ul li div.button a:hover{text-decoration:none;}
+.logo{width:290px;margin:0 auto;position:relative;}
+.logo img{width:290px;position:absolute;top:190px;}
+.textbox{position:absolute;width:455px;margin:0 auto;top:310px;height:28px;left:50%;margin-left:-227px;}
+.searchbox{border:1px solid #dcdcdc;border-radius: 3px;-moz-border-radius:3px;-webkit-border-radius:3px;font-family:arial;background:#f5f5f5;font-size:11px;position:absolute;top:340px;margin:11px 8px;height:35px;line-height:35px;width:110px;color:#444;left:125px;font-weight:bold;}
+.googlesearch{border:1px solid #dcdcdc;border-radius: 3px;-moz-border-radius:3px;-webkit-border-radius:3px;font-family:arial;background:#f5f5f5;font-size:11px;position:absolute;top:340px;margin:11px 8px;height:35px;line-height:35px;width:110px;color:#444;font-weight:bold;}
+.searchbox:hover,.googlesearch:hover{border: 1px solid #c6c6c6;box-shadow: 0 1px 1px rgba(0,0,0,0.1);color: #222;}
+.footer{width:100%;min-height:40px;background:#f2f2f2;border-top:1px solid #e4e4e4;position:absolute;bottom:0;}
+span.left{float:left;}
+span.left a{color:#666;font-size:small;display:block;float:left;line-height:38px;margin:0 19px;}
+span.right{float:right;}
+span.right a{color:#666;font-size:small;display:block;float:left;line-height:38px;margin:0 19px;}
+span.left a:hover,div.right a:hover{text-decoration:underline;}
+</style>
+
+<body>
+      <div id="wrapper">
+          <span class="nav">
+              <ul>
+                 <li><a href="https://www.gmail.com/intl/en/mail/help/about.html">Gmail</a></li>
+                 <li><a href="https://www.google.co.in/imghp?hl=en&tab=wi&ei=ERd1VeuOF8PRmwW3oAM&ved=0CBAQqi4oAQ">Images</a></li>
+                 <li></li>
+                 <li><div class="button"><a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.co.in/%3Fgfe_rd%3Dcr%26ei%3DpR91VYyNPK_G8AfV4oCABQ%26gws_rd%3Dssl#identifier">Sign in</a></div></li> 
+              </ul> 
+          </span>
+          <div class="main">
+             <div class="logo">
+                <a href="google.co.in"><img src="googlelogo.png"></a>
+                <form action="#"method="post">  
+                  <input class="textbox"type="text">
+                  <input class="googlesearch" type="submit" value="Google Search">
+                  <input class="searchbox"type="submit" value="I'm Feeling Lucky">
+                </form>
+             </div>
+          </div>
+          <div class="footer">
+              <span class="left"><a href="#">Advertising</a><a href="#">Business</a><a href="#">About</a></span> 
+             <span class="right"><a href="#">Privacy</a><a href="#">Settings</a><a href="#">Term</a><a href="#">Use Google.com</a></span>
+          </div>
+      </div>  
+</body>
+</html>
